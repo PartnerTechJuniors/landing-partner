@@ -1,0 +1,27 @@
+#navbar {
+  animation: blur linear both;
+  animation-timeline: scroll();
+  animation-range: 0 00px;
+  
+}
+
+#navbar li,
+#navbar a {
+  animation: textColor linear both;
+  animation-timeline: scroll();
+  animation-range: 0 100px;
+  color: #ffffff;
+}
+
+@keyframes blur {
+  to {
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+  }
+}
+
+@keyframes textColor {
+  to {
+    color: #000000;
+  }
+}
