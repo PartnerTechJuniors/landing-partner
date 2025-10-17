@@ -1,15 +1,14 @@
 #navbar {
   animation: blur linear both;
   animation-timeline: scroll();
-  animation-range: 0 00px;
-  
+  animation-range: 0 300px;
 }
 
 #navbar li,
 #navbar a {
   animation: textColor linear both;
   animation-timeline: scroll();
-  animation-range: 0 100px;
+  animation-range: 0 150px;
   color: #ffffff;
 }
 
@@ -22,6 +21,6 @@
 
 @keyframes textColor {
   to {
-    color: #000000;
+    color: #001555;
   }
 }
