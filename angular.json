@@ -4,6 +4,14 @@
   "newProjectRoot": "projects",
   "projects": {
     "partnertech": {
+      "i18n": {
+        "sourceLocale": "en-EN",
+        "locales": {
+          "en": { 
+            "translation": "src/locale/messages.en.xlf"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,6 +21,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "i18nMissingTranslation": "error",
+            "localize": true,
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -28,6 +38,9 @@
             ],
             "styles": [
               "src/styles.css"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           },
           "configurations": {
@@ -81,6 +94,9 @@
             ],
             "styles": [
               "src/styles.css"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           }
         }

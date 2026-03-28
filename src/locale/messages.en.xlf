@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-EN" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7143229934232517142" datatype="html">
+        <source>partnertech</source>
+        <target>partnertech</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3710036825843516750" datatype="html">
+        <source> quienes somos </source>
+        <target> who we are </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/about/about.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6928595887047149920" datatype="html">
+        <source>Presentación Partner</source>
+        <target>Partner Presentation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/hero/hero.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6660065487840753622" datatype="html">
+        <source>quienes somos</source>
+        <target> who we are </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/navbar/navbar.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3695702872964356572" datatype="html">
+        <source>nuestros servicios</source>
+        <target>our services</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/navbar/navbar.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7969313047904364713" datatype="html">
+        <source>aplicaciones</source>
+        <target>applications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/navbar/navbar.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7662250130778211850" datatype="html">
+        <source>contactanos</source>
+        <target>contact us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/sections/navbar/navbar.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
